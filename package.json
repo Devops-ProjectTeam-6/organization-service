@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npx nodemon",
     "build": "tsc",
-    "start": "tsc && node dist/index.ts"
+    "start": "tsc && node dist/index.js"
   },
   "keywords": [
     "organization-service"
