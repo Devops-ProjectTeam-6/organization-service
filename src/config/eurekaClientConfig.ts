@@ -5,7 +5,7 @@ const Eureka = require("eureka-js-client").Eureka;
 const eurekaClient = new Eureka({
   instance: {
     app: AppConstants.ORGANIZATION_SERVICE,
-    hostName: "room-service.bef24bd.kyma.ondemand.com",
+    hostName: "organization-service.bef24bd.kyma.ondemand.com",
     ipAddr: "127.0.0.1",
     status: "UP",
     port: {
